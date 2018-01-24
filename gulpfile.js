@@ -1,4 +1,5 @@
 var gulp = require( 'gulp' );
+var shell = require( 'gulp-shell' );
 
 // Require main configuration file
 var config = require( './gulp/config.js' );
@@ -51,12 +52,19 @@ gulp.task(
 	] )
 );
 
+// Update NPM packages and files
+gulp.task(
+	'update',
+	shell.task( 'npm i' )
+);
+
 // Release main task
 gulp.task(
 	'release',
 	gulp.series( [
 		release.prompt,
 		release.version,
+		'update',
 		'sass',
 		'examples',
 		release.assets,
