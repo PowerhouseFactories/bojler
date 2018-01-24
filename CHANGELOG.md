@@ -2,6 +2,53 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.2.1] - 2018-01-23
+### Changed
+- Added `.stylelintrc` and `.eslintrc` to npm package (#101).
+
+## [3.2.0] - 2018-01-22
+### Changed
+- Grid gutter settings updated (#97).
+- Spacing utilites updated (#91, #98, #99).
+- `o-main-wrapper` updated (#95).
+- Updated gulp files to version 4 (#90).
+
+### Added
+- Links styles added (#94).
+- `test:watch` task added (#89).
+- Added "Basic", "Notification Success", "Notification Danger", "Notification Warning", "Account Reset Password", "Notification Unsubscribed" and "Account Activate" templates (#75, #76, #77, #78, #79, #80, #82).
+
+### Fixed
+- Release zip issue fixed (#88).
+
+## [3.1.0] - 2018-01-16
+### Changed
+- Documentation updated (#71, #85).
+- Updated buttons `line-height` for better consistency (#57).
+- ITCSS rules applied (#83).
+- Updated `docs/` directory structure (#68).
+
+### Added
+- Added tests and examples automation (#86).
+- Added more utility classes (#74).
+- Added VSCode comment snippets (#84).
+
+## [3.0.0] - 2018-01-12
+### Changed
+- Transformed bojler to CSS only framework (#61, #70).
+- Moved documentation from `gh-pages` branch to `docs/` directory on `master` branch (#64).
+- Documentation content updated (#63).
+- Licence filename updated.
+
+### Added
+- Added files needed for NPM package creation (#60).
+- Added new automation scripts (#66, #67, #69).
+- Added CI via Travis CI service (#62).
+
+## [2.2.0] - 2018-01-09
+### Changed
+- Allow use of subdirectories (#54).
+
 ## [2.1.2] - 2017-08-07
 ### Fixed
 - Inline source issue fixed (#53).
