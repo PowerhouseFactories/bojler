@@ -18,11 +18,5 @@ Thumbs.db
 # ---------------
 # Compiled assets
 # ---------------
-release-assets/
-dist/*
-!dist/inline.css
-!dist/embed.css
-!dist/inline.min.css
-!dist/embed.min.css
-test/**/*.html
-!test/**/*-source.html
+public/*
+!public/assets
